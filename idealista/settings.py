@@ -59,5 +59,16 @@ USER_AGENTS = [
 RETRY_HTTP_CODES = [500, 502, 503, 504, 400, 403, 404, 408]
 
 ROTATING_PROXY_PAGE_RETRY_TIMES = 99999999999 # TODO: is it possible to setup this parameter with no limit?
-ROTATING_PROXY_LIST = get_proxies()
+ROTATING_PROXY_LIST = {
+    '190.97.225.41:999',
+    '159.65.133.175:31280',
+    '41.65.236.35:1981',
+    '121.156.109.108:8080',
+    '181.177.20.67:80',
+    '197.246.212.70:3030',
+    '185.51.10.19:80',
+    '119.18.152.210:3127',
+    '191.97.16.115:999',
+
+}
 
